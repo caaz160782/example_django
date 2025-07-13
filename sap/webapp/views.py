@@ -6,7 +6,7 @@ from personas.models import Persona
 
 # Create your views here.
 def bienvenido(request):
-    mensajes ={'msg1':'Pagina bienvendio template django'}
+    mensajes ={'msg1':'Pagina bienvenido template django'}
     return render(request,'bienvenido.html',mensajes)
 
 def mvm(request):
